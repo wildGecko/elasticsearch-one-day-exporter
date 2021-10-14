@@ -20,7 +20,7 @@ ifeq ($(GOOS),windows)
 endif
 
 build:
-	go build -o $(PREFIX)/es-snapshot-exporter-$(GOOS)-$(GOARCH)$(EXTENSION)
+	go build -o $(PREFIX)/es-oneday-exporter-$(GOOS)-$(GOARCH)$(EXTENSION)
 
 test:
 	go test
